@@ -5,6 +5,7 @@
   <version>1</version>
   <packaging>war</packaging>
   <name>devops</name>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -25,6 +26,9 @@
       </plugin>
     </plugins>
   </build>
+  <properties>
+    <sonar.projectKey>jenkins</sonar.projectKey>
+  </properties>
   <dependencies>
         <dependency>
                 <groupId>javax.servlet</groupId>
